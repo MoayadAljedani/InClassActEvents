@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaLiga League</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>LaLiga League Table</h1>
+    
+    <div id="filter-section">
+        <input type="text" id="team-filter" onkeyup="filterByTeam()" placeholder="Search by Team Name">
+        <label for="champion-filter">Have Champions:</label>
+        <input type="checkbox" onchange="filterByChampionship()" id="champion-filter">
+    </div>
+
+    <table class="league-table">
+        <thead>
+        <tr>
+            <th>Team</th>
+            <th>Championships</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>Real Madrid</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Barcelona</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Atletico Madrid</td>
+            <td>11</td>
+        </tr>
+        
+        <tr>
+            <td>Athletic Bilbao</td>
+            <td>8</td>
+        </tr>
+        
+        <tr>
+            <td>Valencia</td>
+            <td>6</td>
+        </tr>
+        
+        <tr>
+            <td>Cádiz</td>
+            <td>0</td>
+        </tr>
+        
+        <tr>
+            <td>Celta Vigo</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Real Sociedad</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Getafe</td>
+            <td>0</td>
+        </tr>
+        
+        <tr>
+            <td>Sevilla</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>Girona</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Real Betis</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>UD Almeria</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Alavés</td>
+            <td>0</td>
+        </tr>
+    </tbody>
+
+    </table>
+    <script src="script.js"></script>
+
+</body>
+</html>
